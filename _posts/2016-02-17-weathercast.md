@@ -1,13 +1,13 @@
 ---
 layout: inner
 position: left
-title: 'Weathercast'
+title: 'Sytner Audi Club'
 date: 2016-02-20 15:56:00
 categories: development
-tags: JavaScript AngularJS API Sass
+tags: Vue.js Cordova REST
 featured_image: '/img/posts/02_weathercast-1130x864-2x.png'
-project_link: 'http://github.com/jamigibbs/weathercast'
-button_icon: 'github'
-button_text: 'Visit Project'
-lead_text: 'A simple weather forecast app for your favorite city.'
+project_link: 'https://sytneraudiclub.co.uk/'
+button_icon: 'globe'
+button_text: 'Visit Website'
+lead_text: "Developed the mobile app for TechChaps, a UK based software consultancy for their client, Sytner. Sytner is one of UK's largest car retailer. Their web application was in Vue.js so I was tasked with converting it to a responsive mobile app using a plugin which compiled the web app to a cordova mobile app."
 ---
