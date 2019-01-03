@@ -17,7 +17,7 @@ title: "Hello. I'm Talha Khatri."
 email: 'talhakhatri3@gmail.com'
 description: "I'm a Full-stack Javascript Developer hailing from Karachi, Pakistan. I work as a freelancer. In my free time, I like watching movies and learning about random cool stuff."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jamigibbs.github.io/phantom" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://meet-talha.netlify.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 'dekhKhatri'
 github_username: 'TalhaKhatri'
 medium_username: 'blog.jamigibbs.com'
