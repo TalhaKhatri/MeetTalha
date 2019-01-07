@@ -3,9 +3,10 @@ layout: inner
 position: right
 title: 'Benefit and Budgeting Calculator'
 date: 2016-02-20 15:56:00
-categories: development design
+categories: development
+type: portfolio
 tags: Angular Koa SQL Node.js Cucumber.js Selenium Browserstack Jasmine Protractor
-featured_image: '/img/posts/03_rescue-themes-1130x864-2x.png'
+featured_image: '/img/posts/betteroff.png'
 project_link: 'https://www.betteroffcalculator.co.uk/#/login'
 button_text: 'Visit Website'
 button_icon: 'globe'

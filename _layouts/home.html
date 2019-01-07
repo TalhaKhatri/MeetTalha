@@ -7,22 +7,45 @@
         <div class="row">
           <div class="col-md-12">
 
-            {% if site.section_title != '' %}
-            <h2 class="section-title text-center">{{ site.section_title }}</h2>
+            {% if site.section_title_work != '' %}
+            <h2 class="section-title text-center">{{ site.section_title_work }}</h2>
             {% endif %}
-            {% if site.section_subtitle != '' %}
-            <p class="section-subtitle text-center">{{ site.section_subtitle }}</p>
+            {% if site.section_subtitle_work != '' %}
+            <p class="section-subtitle text-center">{{ site.section_subtitle_work }}</p>
             {% endif %}
 
             <div class="break"></div>
 
             {% for post in paginator.posts %}
               <div class="wow fadeIn">
-              {% if post.position == "left" %}
+              {% if post.position == "left" and post.type == "portfolio" %}
                 {% include content-left.html %}
               {% endif %}
 
-              {% if post.position == "right" %}
+              {% if post.position == "right" and post.type == "portfolio" %}
+                {% include content-right.html %}
+              {% endif %}
+              </div>
+            {% endfor %}
+
+            {% include pagination.html %}
+
+            {% if site.section_title_experience != '' %}
+            <h2 class="section-title text-center">{{ site.section_title_experience }}</h2>
+            {% endif %}
+            {% if site.section_subtitle_experience != '' %}
+            <p class="section-subtitle text-center">{{ site.section_subtitle_experience }}</p>
+            {% endif %}
+
+            <div class="break"></div>
+
+            {% for post in paginator.posts %}
+              <div class="wow fadeIn">
+              {% if post.position == "left" and post.type == "experience" %}
+                {% include content-left.html %}
+              {% endif %}
+
+              {% if post.position == "right" and post.type == "experience" %}
                 {% include content-right.html %}
               {% endif %}
               </div>

@@ -15,14 +15,16 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Talha Khatri."
 email: 'talhakhatri3@gmail.com'
-description: "I'm a Full-stack Javascript Developer hailing from Karachi, Pakistan. I work as a freelancer. In my free time, I like watching movies and learning about random cool stuff."
+description: "I'm a Full-stack Javascript Developer hailing from Karachi, Pakistan. I also work as a freelancer. I enjoy building cool web and mobile applications."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://meet-talha.netlify.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 'dekhKhatri'
 github_username: 'TalhaKhatri'
 medium_username: 'medium.com/talha-khatri'
-section_title: 'Previous Work'
-section_subtitle: 'Have a look at some of my projects and the technologies used.'
+section_title_work: 'Previous Work'
+section_title_experience: 'Work Experience & Education'
+section_subtitle_work: 'Have a look at some of my projects and the technologies used.'
+section_subtitle_experience: 'A timeline of my journey so far.'
 # Build settings
 markdown: kramdown
 # theme: phantom # Uncomment once published to RubyGems
@@ -40,4 +42,4 @@ enable_contact: true
 enable_nav: true
 nav_item:
   - { url: '/', text: 'Home' }
-  - { url: '/about', text: 'About' }
+  # - { url: '/about', text: 'About' }

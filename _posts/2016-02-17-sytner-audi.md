@@ -4,8 +4,9 @@ position: left
 title: 'Sytner Audi Club'
 date: 2016-02-20 15:56:00
 categories: development
+type: portfolio
 tags: Vue.js Cordova REST
-featured_image: '/img/posts/02_weathercast-1130x864-2x.png'
+featured_image: '/img/posts/audi.png'
 project_link: 'https://sytneraudiclub.co.uk/'
 button_icon: 'globe'
 button_text: 'Visit Website'
