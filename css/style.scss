@@ -251,6 +251,18 @@ button.btn, input.btn {
   @include bp-small {
     margin-bottom: 2em;
   }
+  img.img-response {
+    display: none;
+    max-width: 100%;
+    height: auto;
+    @include bp-xsmall {
+      display: block;
+    }
+    @include bp-small {
+      display: block;
+    }
+  }
+
   img.img-responsive {
     @include bp-xsmall {
       display: none;
@@ -259,6 +271,7 @@ button.btn, input.btn {
       display: none;
     }
   }
+
   .content {
     margin-top: 5em;
     margin-left: 5em;

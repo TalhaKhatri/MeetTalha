@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Hello. I'm Talha Khatri."
 email: 'talhakhatri3@gmail.com'
-description: "I'm a Full-stack Javascript Developer hailing from Karachi, Pakistan. I also work as a freelancer. I enjoy building cool web and mobile applications."
+description: "I'm a Full-stack Javascript Developer hailing from Karachi, Pakistan. Currently I am heading my own company, Flexnet, where we build beautiful and high performing mobile and web applications for our clients."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://meet-talha.netlify.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 'dekhKhatri'
@@ -33,7 +33,7 @@ plugins:
   - jekyll-paginate
 
 ### Phantom settings
-paginate: 10
+paginate: 15
 footer_text: '© 2018 Talha Khatri'
 admin_name: 'Talha Khatri'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
